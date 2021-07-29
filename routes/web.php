@@ -16,5 +16,4 @@ use App\Http\Controllers\tarefaController2;
 Route::get('/', function () {
     return view('welcome');
 });
-Route::get('/',[tarefaController2::class]);
-Route::apiResources(['/'=>tarefaController2::class]);
+Route::apiResources(['/tarefa'=>tarefaController2::class]);
