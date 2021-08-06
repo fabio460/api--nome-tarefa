@@ -1,0 +1,6 @@
+machine api.heroku.com
+  login dasilvadeoliveirafabio@gmail.com
+  password 980893b7-9a71-493b-a487-16c28211bafc
+machine git.heroku.com
+  login dasilvadeoliveirafabio@gmail.com
+  password 980893b7-9a71-493b-a487-16c28211bafc
