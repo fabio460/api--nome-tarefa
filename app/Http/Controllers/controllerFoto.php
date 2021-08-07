@@ -11,6 +11,7 @@ class controllerFoto extends Controller
     public function index()
     {
         return ModelFoto::all();
+        
     }
     public function store(Request $request)
     {
