@@ -16,7 +16,7 @@ class controllerFoto extends Controller
     {
         $modelfoto=new ModelFoto();
         $modelfoto->desc=$request->input('desc');
-        $modelfoto->url=$request->file('url')->store('public/arquivo_fotos');
+        $modelfoto->url=$request->file('url')->store('/');
         $modelfoto->save();
     }
     public function update(Request $request, $id)
