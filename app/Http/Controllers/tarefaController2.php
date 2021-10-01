@@ -8,7 +8,7 @@ class tarefaController2 extends Controller
     public function index()
     {
        $res =  modelTarefa::all();
-       return ("<pre>".$res."</pre>");
+       return ("<pre>".var_dump($res)."</pre>");
     }
     public function store(Request $request)
     {
